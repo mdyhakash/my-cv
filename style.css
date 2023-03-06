@@ -1,0 +1,162 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: #3c6c6b;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 30px auto;
+    width: 100%;
+}
+
+/*---------------------
+Header Section Start
+----------------------*/
+.container{
+
+    max-width: 1000px;
+    background-color: #f2ecdc;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#header-content{
+
+    
+}
+
+.header-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 100px;
+    float: left;
+}
+.header-info{
+
+    float: left;
+    padding: 30px;
+}
+
+.contact-info{
+    float: right;
+    padding: 30px;
+}
+
+.contact-info p a{
+
+    text-decoration: none;
+    color: #3c6c6b;
+    font-weight: bold;
+}
+.contact-info p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.div-clear{
+
+    clear: both;
+}
+/*--------------------------
+Header Section End
+----------------------------*/
+
+/*-------------------------
+Main Section Start
+-------------------------*/
+
+
+.left{
+
+    float: left;
+    width: 45%;
+}
+
+.right{
+
+    float: left;
+    width: 45%;
+}
+
+.div-clear-section{
+
+    clear: both;
+}
+
+.hr-section{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 30px auto;
+    width: 100%;
+}
+
+
+/*Personal Section*/
+
+.personal-info{
+
+}
+/*---------------------
+Education Section Start
+-----------------------*/
+.edu-left{
+
+    float: left;
+    width: 45%;
+}
+
+.edu-right{
+
+    float: right;
+    width: 45%;
+}
+
+.edu-p{
+    font-size: small;
+    font-weight: bold;
+}
+
+
+
+
+/*--------------------------
+Footer Section Start
+-----------------------------*/
+.bottom-container{
+    background-color: #332e2e;
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-container a{
+
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.bottom-container a:hover{
+    text-decoration: wavy;
+    color: rgb(87, 87, 235);
+}
+
+
+
+
+
+
